@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google GLASS</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+</head>
+<body>
+<div id="inter">
+          
+     <header id="cabecalho"> 
+        <div>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+        </div>
+        <div id="icone-trans">
+            <img id="icone" src="_imagens/_icones/specs.png" alt="Óculos Google Glass">
+        </div>
+        
+        <nav id="menu">
+           <h1>Menu Principal</h1>
+           <ul type="square">
+               <li onmouseover="entrada(1)" onmouseout="saida(2)">  <a href="index.html">Home</a> </li>
+               <li onmouseover="entrada(2)" onmouseout="saida(2)"> <a href="specs.html">Especificações</a> </li>
+               <li onmouseover="entrada(3)" onmouseout="saida(2)"> <a href="fotos.html">Fotos</a> </li>
+               <li onmouseover="entrada(4)" onmouseout="saida(2)"> <a href="multimidia.html">Multimídia</a> </li>
+               <li onmouseover="entrada(5)" onmouseout="saida(2)"> <a href="fale-conosco.html">Fale conosco</a> </li>
+           </ul>
+        </nav>
+    </header>  
+
+<section id="corpo-full">
+    <div>
+        <h3> Glass &nbsp; > &nbsp; Especificações</h3> 
+        <h1>Raio-X no Google Glass</h1>
+        <h3>por Gustavo Guanabara | Atualizado em 01/Maio/2013</h3>
+    </div>
+    <p>
+        Passe o Mouse e Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.
+    </p>    
+
+        <section id="conteudo-specs">
+            <img src="_imagens/glass-esquema-marcado.png" alt="" usemap="#mapa">
+            <map name="mapa" >
+                <area shape="rect" coords="204,245,295,313" onclick="image(1)" onmouseover="entradainterativo(1)" onmouseout="saidainterativo()">
+                <area shape="rect" coords="169,281,197,304" onclick="image(2)" onmouseover="entradainterativo(2)" onmouseout="saidainterativo()">
+                <area shape="rect" coords="49,196,109,304" onclick="image(3)" onmouseover="entradainterativo(3)" onmouseout="saidainterativo()">
+                <area shape="rect" coords="89,94,112,109" onclick="image(4)" onmouseover="entradainterativo(4)" onmouseout="saidainterativo()">
+            </map>
+        </section>
+        
+        <section id="conteudo-interativo" name="conteudo-interativo">
+            <article id="top"> 
+                <header> 
+                    <h2>
+                    Passe o Mouse e Clique sobre as áreas destacadas em vermelho
+                    <img src="_imagens/mao.png" alt=""  width="300px">
+                    </h2> 
+                </header> 
+            </article>
+        </section>
+
+    
+</section>
+
+<footer id="rodape">
+    <p>&copy; 2013 - by Gustavo Guanabara | &copy; 2020 - Raphael Sanches</p> 
+</footer>
+
+<script src="_javascript/funcoes.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google GLASS</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+</head>
+<body>
+<div id="inter">
+      
+    
+     <header id="cabecalho"> 
+        <div>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+        </div>
+        <div id="icone-trans">
+            <img id="icone" src="_imagens/_icones/contact.png" alt="Óculos Google Glass">
+        </div>
+        
+
+
+        <nav id="menu">
+           <h1>Menu Principal</h1>
+           <ul type="square">
+               <li onmouseover="entrada(1)" onmouseout="saida(5)">  <a href="index.html">Home</a> </li>
+               <li onmouseover="entrada(2)" onmouseout="saida(5)"> <a href="specs.html">Especificações</a> </li>
+               <li onmouseover="entrada(3)" onmouseout="saida(5)"> <a href="fotos.html">Fotos</a> </li>
+               <li onmouseover="entrada(4)" onmouseout="saida(5)"> <a href="multimidia.html">Multimídia</a> </li>
+               <li onmouseover="entrada(5)" onmouseout="saida(5)"> <a href="fale-conosco.html">Fale conosco</a> </li>
+           </ul>
+        </nav>
+    </header>  
+
+    <section id="corpo-formulario">
+        <div>
+            <h3> Fale Conosco &nbsp; > &nbsp; Contato</h3> 
+            <h1>Formulário de Contatos</h1>
+            <h3>por Gustavo Guanabara | Atualizado em 01/Maio/2013</h3>
+        </div>
+    <p>
+        <form action="submit()" method="POST" id="u-form">
+            
+            <fieldset id="usuario">
+               <legend> Identificação do Usuário</legend>
+               <p>Nome: <input type="text" name="u-nome" id="u-nome" size="40" maxlength="40" placeholder="Digite seu Nome Completo"> </p> 
+               <p>Senha: <input type="password" name="u-senha" id="u-senha" size="8" maxlength="8"> </p> 
+               <p>E-mail: <input type="email" name="u-email" id="u-emai"> </p> 
+               <fieldset>
+                   <legend>Sexo:</legend>
+                  <label for="u-masc">Masculino </label> <input type="radio" name="u-sexo" id="u-masc">
+                   <label for="u-femi">Feminino </label> <input type="radio" name="u-sexo" id="u-femi">
+               </fieldset> 
+                    <p>Data de Nascimento: <input type="date" name="u-data" id="u-data"> </p>  
+                    <img src="_imagens/_formulario/f-usuario.png" alt="" class="img-f" >
+            </fieldset>
+
+            <fieldset id="endereco">
+                <legend>Endereço do Usuário</legend> 
+               <p>Logradouro: <input type="text" name="u-logra" id="u-logra" maxlength="80" > </p> 
+               <p>Número: <input type="number" name="u-numero" id="u-numero" max="99999" > </p> 
+               <p>Estado: <select name="u-estado" id="u-estado"> 
+                   <optgroup label="Região Sudeste" id="regioes" name="regioes">
+                        <option value="Rio de Janeiro">
+                       Rio de Janeiro
+                        </option>
+                        <option value="São Paulo">
+                       São Paulo
+                    </option>
+                    </optgroup>
+                    </select> 
+                </p> 
+                <p>Cidade: <input type="text" name="u-cidade" id="u-cidade" size="40" maxlength="40"  > 
+                </p> 
+                <img src="_imagens/_formulario/f-endereco.png" alt="" class="img-f" >
+            </fieldset>
+
+            </fieldset id="mensagem">   
+                <fieldset>
+                 <legend>Mensagem do Usuário</legend>   
+               <p>Grau de Urgência: 
+                   <select name="u-urgencia" id="u-urgencia">
+                       <option value="Alta">
+                           Alta
+                       </option>
+                       <option value="Baixa">
+                           Baixa
+                       </option>
+                   </select>
+               </p> 
+               <p>Mensagem: <br>
+                   <textarea name="u-mensagem" id="u-mensagem" cols="30" rows="2"></textarea> 
+                </p> 
+                <img src="_imagens/_formulario/f-mensagem.png" alt="" class="img-f" >
+            </fieldset>
+
+            <fieldset id="pedido">
+               <legend>Quero um Google Glass</legend> 
+               <p>Gostaria de adquirir um Google Glass quando disponível <input type="checkbox" name="u-gostaria" id="u-gostaria"value="Sim" > </p> 
+               <p>Cor: <input type="color" name="u-color" id="u-color"> </p> 
+               <p>Quantidade: <input type="number" name="uquantidade" id="u-quantidade" max="10" size="2"> </p> 
+               <p>Preço Total: R$</p> 
+               <img src="_imagens/_formulario/f-pagamento.png" alt="" class="img-f" >
+            </fieldset>
+            <p>
+                <div name="enviar" id="enviar">
+                    <input type="button" value="ENVIAR">
+                </div>
+            </p>
+        </form>
+    </p>
+
+</section>
+
+<footer id="rodape">
+    <p>&copy; 2013 - by Gustavo Guanabara | &copy; 2020 - Raphael Sanches</p> 
+</footer>
+
+<script src="_javascript/funcoes.js"></script>
+</body>
+
+</html>

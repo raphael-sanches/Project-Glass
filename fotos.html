@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google GLASS</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+</head>
+<body>
+<div id="inter">
+      
+    
+     <header id="cabecalho"> 
+        <div>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+        </div>
+        <div id="icone-trans">
+            <img id="icone" src="_imagens/_icones/pictures.png" alt="Óculos Google Glass">
+        </div>
+        
+
+
+        <nav id="menu">
+           <h1>Menu Principal</h1>
+           <ul type="square">
+               <li onmouseover="entrada(1)" onmouseout="saida(3)">  <a href="index.html">Home</a> </li>
+               <li onmouseover="entrada(2)" onmouseout="saida(3)"> <a href="specs.html">Especificações</a> </li>
+               <li onmouseover="entrada(3)" onmouseout="saida(3)"> <a href="fotos.html">Fotos</a> </li>
+               <li onmouseover="entrada(4)" onmouseout="saida(3)"> <a href="multimidia.html">Multimídia</a> </li>
+               <li onmouseover="entrada(5)" onmouseout="saida(3)"> <a href="fale-conosco.html">Fale conosco</a> </li>
+           </ul>
+        </nav>
+    </header>  
+    
+    <section id="corpo-full">
+        <div>
+            <h3> Glass &nbsp; > &nbsp; Fotos</h3> 
+            <h1>Galeria de Imagens do Google Glass</h1>
+            <h3>por Gustavo Guanabara | Atualizado em 01/Maio/2013</h3>
+        </div>
+        <p>
+           Veja na nossa galeria de fotos várias belas imagens que mostram algumas das principais características do Google Glass, como recursos e propriedades que estão impressionando o mundo inteiro. Basta passar o mouse sobre uma das fotos para ver uma versão ampliada e com uma breve descrição.
+        </p> 
+
+         <div id="album">
+            <a id="foto01"> <img src="_imagens/galeria-01-b.jpg"  width="100px" onmouseover="zoomin(1)" onmouseout="zoomout(1)" onclick="zoom(1)"> </a>    
+            <a id="foto02"><img src="_imagens/galeria-02-b.jpg"  width="100px" onmouseover="zoomin(2)" onmouseout="zoomout(2)" onclick="zoom(2)"></a>   
+            <a id="foto03"><img src="_imagens/galeria-03-b.jpg"  width="100px" onmouseover="zoomin(3)" onmouseout="zoomout(3)" onclick="zoom(3)"></a>  
+            <a id="foto04"><img src="_imagens/galeria-04-b.jpg"  width="100px" onmouseover="zoomin(4)" onmouseout="zoomout(4)" onclick="zoom(4)"></a>  
+            <a id="foto05"><img src="_imagens/galeria-05-b.jpg"  width="100px" onmouseover="zoomin(5)" onmouseout="zoomout(5)" onclick="zoom(5)"></a>   
+            <a id="foto06"><img src="_imagens/galeria-06-b.jpg"  width="100px" onmouseover="zoomin(6)" onmouseout="zoomout(6)" onclick="zoom(6)"> </a>  
+        </div>
+
+        <div id="foto-zoom">
+            <img src="_imagens/galeria-01.jpg" >
+        </div>
+
+        </section>
+
+<footer id="rodape">
+    <p>&copy; 2013 - by Gustavo Guanabara | &copy; 2020 - Raphael Sanches</p> 
+</footer>
+
+<script src="_javascript/funcoes.js"></script>
+</body>
+
+</html>
