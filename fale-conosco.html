@@ -6,7 +6,7 @@
     <title>Google GLASS</title>
     <link rel="stylesheet" href="_css/estilo.css">
 </head>
-<body>
+<body onload="total()" >
 <div id="inter">
       
     
@@ -97,10 +97,10 @@
 
             <fieldset id="pedido">
                <legend>Quero um Google Glass</legend> 
-               <p>Gostaria de adquirir um Google Glass quando disponível <input type="checkbox" name="u-gostaria" id="u-gostaria"value="Sim" > </p> 
+               <p>Gostaria de adquirir um Google Glass quando disponível <input type="checkbox" name="u-gostaria" id="u-gostaria"value="Sim" checked > </p> 
                <p>Cor: <input type="color" name="u-color" id="u-color"> </p> 
-               <p>Quantidade: <input type="number" name="uquantidade" id="u-quantidade" max="10" size="2"> </p> 
-               <p>Preço Total: R$</p> 
+               <p>Quantidade: <input type="number" name="uquantidade" id="u-quantidade" max="10" size="2"value="1" oninput="total()" > </p> 
+               <p>Preço Total: R$<input type="text" name="u-total" id="u-total" size="10" readonly> </p> 
                <img src="_imagens/_formulario/f-pagamento.png" alt="" class="img-f" >
             </fieldset>
             <p>

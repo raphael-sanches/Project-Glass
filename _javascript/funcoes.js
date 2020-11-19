@@ -149,3 +149,10 @@ function zoom (d) {
         photobig.innerHTML = '<img src="_imagens/galeria-06.jpg" >'
     }
 }
+
+function total () {
+    let quantidade = Number(document.getElementById('u-quantidade').value)
+    let display = document.getElementById("u-total")
+    let total = quantidade * 1500
+    display.value = total
+}

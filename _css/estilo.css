@@ -311,7 +311,8 @@ section#corpo-formulario {
     display: block;
     position: relative;
     border-bottom: 2px rgb(185, 185, 185) solid;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
 }
 
 div#enviar {
@@ -326,4 +327,23 @@ img.img-f {
     position: relative;
     float: right;
     width: 150px;
+}
+
+fieldset {
+    background-color: rgba(255, 255, 255, 0.384);
+    box-shadow: 2px 2px 20px rgba(143, 138, 138, 0.678); 
+    border: 5px solid rgba(255, 255, 255, 0.039) ;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Bonveno';
+    text-shadow: 2px 2px 10px rgb(143, 143, 143);
+}
+
+input , textarea {
+    background-color: rgba(255, 255, 255, 0.603);
 }
