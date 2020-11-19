@@ -7,13 +7,13 @@
 @font-face {
     font-family: Bonveno;
     font-family: 'Titillium Web', sans-serif;
-     src: url("../_fonts/BonvenoCF-Light.otf")
+     src: url("../fonts/BonvenoCF-Light.otf")
 }
 
 /* Corpo */
 
 body {
-background: url("../_imagens/backgroung.jpg") ;
+background: url("../imagens/backgroung.jpg") ;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -31,7 +31,7 @@ header#cabecalho img#icone {
 header#cabecalho {
     border-bottom: 2px rgb(185, 185, 185) solid;
     height: 270px;
-    background: url("../_imagens/glass-logo-trans.png") no-repeat 0px 100px;
+    background: url("../imagens/glass-logo-trans.png") no-repeat 0px 100px;
 }
 
 header#cabecalho h1 {
