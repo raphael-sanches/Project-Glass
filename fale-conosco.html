@@ -46,11 +46,11 @@
                <legend> Identificação do Usuário</legend>
                <p>Nome: <input type="text" name="u-nome" id="u-nome" size="40" maxlength="40" placeholder="Digite seu Nome Completo"> </p> 
                <p>Senha: <input type="password" name="u-senha" id="u-senha" size="8" maxlength="8"> </p> 
-               <p>E-mail: <input type="email" name="u-email" id="u-emai"> </p> 
+               <p>E-mail: <input type="email" name="u-email" id="u-email"> </p> 
                <fieldset>
                    <legend>Sexo:</legend>
-                  <label for="u-masc">Masculino </label> <input type="radio" name="u-sexo" id="u-masc">
-                   <label for="u-femi">Feminino </label> <input type="radio" name="u-sexo" id="u-femi">
+                   <label for="u-masc">Masculino </label> <input type="radio" name="u-sexo" id="u-masc" value="M" checked>
+                   <label for="u-femi">Feminino </label> <input type="radio" name="u-sexo" id="u-femi" value="F">
                </fieldset> 
                     <p>Data de Nascimento: <input type="date" name="u-data" id="u-data"> </p>  
                     <img src="imagens/formulario/f-usuario.png" alt="" class="img-f" >
@@ -99,13 +99,13 @@
                <legend>Quero um Google Glass</legend> 
                <p>Gostaria de adquirir um Google Glass quando disponível <input type="checkbox" name="u-gostaria" id="u-gostaria"value="Sim" checked > </p> 
                <p>Cor: <input type="color" name="u-color" id="u-color"> </p> 
-               <p>Quantidade: <input type="number" name="uquantidade" id="u-quantidade" max="10" size="2"value="1" oninput="total()" > </p> 
+               <p>Quantidade: <input type="number" name="u-quantidade" id="u-quantidade" max="10" oninput="total()" > </p> 
                <p>Preço Total: R$<input type="text" name="u-total" id="u-total" size="10" readonly> </p> 
                <img src="imagens/formulario/f-pagamento.png" alt="" class="img-f" >
             </fieldset>
             <p>
                 <div name="enviar" id="enviar">
-                    <input class="button" type="button" value="ENVIAR">
+                    <input class="button" type="submit" value="ENVIAR">
                 </div>
             </p>
         </form>
